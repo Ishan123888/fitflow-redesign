@@ -1,4 +1,4 @@
-# Weighted Technology Comparison Matrix — FitFlow Redesign
+# Weighted Technology Comparison Matrix - FitFlow Redesign
 
 Each option scored 1 (poor) to 5 (excellent) per criterion. Weighted score = score × weight,
 summed per option. Weights reflect FitFlow's priorities: fast onboarding/performance, real-time
@@ -17,7 +17,7 @@ mid-sized team.
 | **Weighted Total** | **4.43** | **4.16** | **2.86** | **2.45** |
 
 > Note: Flutter scores marginally higher on paper, but React Native is still recommended because
-> it preserves the case study's existing codebase and team velocity — a practical constraint this
+> it preserves the case study's existing codebase and team velocity - a practical constraint this
 > scoring matrix does not capture.
 
 ## 2. Backend + Database + Auth Matrix
