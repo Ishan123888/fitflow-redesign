@@ -3,7 +3,7 @@ Tech Stack Summary - FitFlow Redesign
 Frontend
 Recommended: React Native (with React Native Web)
 
-- Reuses the existing FitFlow codebase and the team's JS/TS skills — directly aligned with the
+- Reuses the existing FitFlow codebase and the team's JS/TS skills - directly aligned with the
   startup's need for speed to market.
 - One codebase serves iOS, Android and Web (via React Native Web).
 - Mature Firebase SDKs, TensorFlow.js and native camera/ML bridges directly support the AI
