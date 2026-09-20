@@ -1,7 +1,7 @@
-# Tech Stack Summary — FitFlow Redesign
+Tech Stack Summary - FitFlow Redesign
 
-## Frontend
-**Recommended: React Native (with React Native Web)**
+Frontend
+Recommended: React Native (with React Native Web)
 
 - Reuses the existing FitFlow codebase and the team's JS/TS skills — directly aligned with the
   startup's need for speed to market.
@@ -14,8 +14,8 @@
 Rejected alternatives: Flutter (would require a full rewrite despite similar performance), Kotlin
 Multiplatform (still needs native UI written twice), Swift/SwiftUI (iOS-only, no Android/Web).
 
-## Backend
-**Recommended: Node.js + Express (microservices)**
+Backend
+Recommended: Node.js + Express (microservices)
 
 - Consistent with the case study's existing choice of Node.js/Express + Firebase for real-time
   social features and scalable notifications.
@@ -23,23 +23,23 @@ Multiplatform (still needs native UI written twice), Swift/SwiftUI (iOS-only, no
 - AI/computer-vision workloads isolated into a separate FastAPI (Python) microservice, called over
   REST/gRPC, for best-in-class ML tooling without forcing the whole backend into Python.
 
-## Database
-**Recommended: PostgreSQL + Firebase (Firestore/RTDB)**
+Database
+Recommended: PostgreSQL + Firebase (Firestore/RTDB)
 
 - PostgreSQL for structured, relationally-sensitive data (user profiles, workout history, billing)
   — ACID guarantees and strong reporting/query support.
 - Firebase Firestore/RTDB for real-time social feeds and lightweight profile data — native
   real-time sync, minimal setup.
 
-## Authentication
-**Recommended: Firebase Auth**
+Authentication
+Recommended: Firebase Auth
 
 - Integrates natively with the Firestore/RTDB layer already used for social features.
 - Pre-built SDKs, social login, MFA support, GDPR-compliant infrastructure.
 - Minimal setup and low cost for a mid-sized team.
 
-## AI / Computer Vision
-**Recommended: FastAPI (Python) microservice**
+AI / Computer Vision
+Recommended: FastAPI (Python) microservice
 
 - TensorFlow Lite for on-device personalization (fast, privacy-preserving).
 - Cloud ML service for heavier/advanced model updates.
